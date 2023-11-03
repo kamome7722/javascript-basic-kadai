@@ -1,9 +1,7 @@
-var dateName = new date([2022,8,22]);
+var today= new Date([2022,8,22]);
 
-var year=dateName.getFullYear();
-var month=dateName.getMonth();
-var day=dateName.getDay();
+var year = today.getFullYear();
+var month = today.getMonth()+1;
+var day = today.getDate();
 
-console.log(year+'年');
-console.log(month+'月');
-console.log(day+'日');
+console.log(year+'年'+month+'月'+day+'日');
