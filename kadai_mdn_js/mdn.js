@@ -1,4 +1,5 @@
 var today= new Date([2022,8,22]);
+console.log(today);
 
 var year = today.getFullYear();
 var month = today.getMonth()+1;
